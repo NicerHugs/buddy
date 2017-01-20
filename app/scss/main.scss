@@ -1,0 +1,11 @@
+@import 'vars';
+
+#app {
+	max-width: 800px;
+	margin: 0 auto;
+	@include robot();
+}
+
+h2 {
+	text-align: center;
+}
