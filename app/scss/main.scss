@@ -6,6 +6,17 @@
 	@include robot();
 }
 
-h2 {
+.cal-select {
 	text-align: center;
+}
+
+.add-btn {
+	position: fixed;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 20px;
+}
+
+.user-card {
+	margin: 10px auto;
 }

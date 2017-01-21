@@ -1,17 +1,13 @@
-import React from 'react';
-import {browserHistory} from 'react-router';
+import {Link} from 'react-router';
 import FloatingActionButton from 'material-ui/FloatingActionButton';
 import ContentAdd from 'material-ui/svg-icons/content/add';
 
-export default React.createClass({
-	clickAdd() {
-		browserHistory.push('add');
-	},
-	render() {
+export default () => {
 		return (
-			<FloatingActionButton onClick={this.clickAdd}>
-				<ContentAdd />
-			</FloatingActionButton>
+			<Link to="add">
+				<FloatingActionButton className="add-btn">
+					<ContentAdd />
+				</FloatingActionButton>
+			</Link>
 		);
 	}
-})
