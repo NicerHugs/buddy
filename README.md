@@ -2,9 +2,9 @@
 An app in progress for users to help keep one another accountable for fitness goals
 
 ## Routes
-Login
-Add activity
-Activities
+- Login
+- Add activity
+- Activities
 	- weekly view of all users goals
 
 ## Data
@@ -25,7 +25,7 @@ Activities
 ```
 
 ## Actions
-login
-logout
-completeActivity
-addActivity
+- login
+- logout
+- completeActivity
+- addActivity
